@@ -43,7 +43,7 @@ function Sign() {
                     <Components.Input type='password' id="password" name="password" placeholder='Password' />
                     <Components.Input type="tel" id="countryCode" name="countryCode" placeholder='+91' />
                     <Components.Input type="tel" id="phone_number" name="phone_number" placeholder='Phone Number' />
-                    <Components.Input type='submit' value="Submit" />
+                    <Components.Button type='submit'>Submit</Components.Button>
                 </Components.Form>
             </Components.SignUpContainer>
 
@@ -54,7 +54,7 @@ function Sign() {
                     <Components.Input type='email' id='emial' name="email" placeholder='Email' />
                     <Components.Input type='password' id='password' name="password" placeholder='Password' />
                     <Components.Anchor href='#'>Forgot your password?</Components.Anchor>
-                    <Components.Button type='submit' >Sign In</Components.Button>
+                    <Components.Button type='submit'>Sign In</Components.Button>
                 </Components.Form>
             </Components.SignInContainer>
 
