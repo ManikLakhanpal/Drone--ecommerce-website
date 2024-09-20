@@ -181,7 +181,7 @@ export const Navbar = () => {
             </button>
           </li>
           <li className="grid items-center">
-            <a href="src/signInForm/form.jsx" target="_blank">
+            <a href="src/signInForm/form.html" target="_blank">
               <UserCircleIcon
                 className={`icon-style w-5 h-auto ${
                   navState && 'text-slate-900 transition-all duration-300'
