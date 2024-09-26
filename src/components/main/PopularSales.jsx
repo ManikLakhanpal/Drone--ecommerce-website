@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import PropTypes from 'prop-types';
 import Product from './Product'; // Ensure the import is correct
 import Title from './Title';
